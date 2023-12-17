@@ -4,6 +4,8 @@ import AppHeader from './components/AppHeader.vue'
 </script>
 
 <template>
-  <app-header />
-  <router-view />
+  <div class="font-roboto flex h-screen flex-col bg-gray-200">
+    <app-header />
+    <router-view />
+  </div>
 </template>
